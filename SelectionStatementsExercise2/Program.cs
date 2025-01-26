@@ -10,10 +10,10 @@ namespace SelectionStatementsExercise2
             FavSubject();
         }
 
-        public static void FavSubject() 
-        {   
+        public static void FavSubject()
+        {
             Console.WriteLine("Welcome to Fav Subject");
-        
+
             String subject = Console.ReadLine();
 
             switch (subject.ToLower())
@@ -38,8 +38,9 @@ namespace SelectionStatementsExercise2
                 default:
                     Console.WriteLine("I like that too");
                     break;
-                
+
             }
-            
+
         }
     }
+}
